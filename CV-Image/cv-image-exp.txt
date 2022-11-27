@@ -1,0 +1,32 @@
+Project: OpenCV for images 
+
+In this project, we have learned how library **cv2** is implemented for images. 
+
+Functions
+--------------------
+1) imread('image file that needs to be read', flags)
+🏁 Flags: it is the way in which the images must read (-1: unchanged, 0: grayscale, 1: color)
+
+example: img = cv2.imread("lena.jpg", -1) 
+
+
+2) imshow('Name of the window', assigned variable in imread) 
+
+example: cv2.imshow('Image', img)
+
+
+3) imwrite('new file which needs to made', assigned variable in imread)
+
+example: cv2.imwrite('lena_copy.png', img)
+
+
+4) waitKey(time) -- a function which holds an image for a particular time interval 
+
+example: cv2.waitKey(5000) -- delay for 5 seconds
+	 cv2.waitKey(0)    -- it will not close the window 
+
+
+5) destroyAllWindows() -- a function which closes all opened windows 
+
+
+
