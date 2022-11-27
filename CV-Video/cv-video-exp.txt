@@ -1,0 +1,7 @@
+Project: OpenCV for videos
+
+In this project, we have learned how library **cv2** is implemented for videos. 
+
+Functions
+--------------------
+
